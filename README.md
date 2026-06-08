@@ -204,18 +204,28 @@ As principais cores ficam no início de `src/styles/index.css`:
 
 ## GitHub Pages
 
-1. Crie um repositório e envie este projeto.
-2. Instale as dependências e teste `npm run build`.
-3. Para um repositório chamado `johan-portfolio`, gere o build com o base path:
+This project is configured for GitHub Pages project deployment at:
+
+`https://MAMEDII.github.io/johan-mamedi-portfolio/`
+
+Vite uses `base: "/johan-mamedi-portfolio/"` in `vite.config.ts`.
+
+Run locally:
 
 ```powershell
-$env:VITE_BASE_PATH="/johan-portfolio/"
+npm install
+npm run dev
+```
+
+Build locally:
+
+```powershell
 npm run build
 ```
 
-4. Publique a pasta `dist` pelo método de GitHub Pages de sua preferência.
+Deploy:
 
-Para um domínio próprio ou página de usuário (`usuario.github.io`), o base padrão `/` pode ser mantido.
+Push to the `main` branch. GitHub Pages is deployed through GitHub Actions using `.github/workflows/deploy.yml`, which builds the project and publishes the `dist` folder.
 
 ## Segurança e desempenho
 

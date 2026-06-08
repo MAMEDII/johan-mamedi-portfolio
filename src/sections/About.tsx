@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import type { Language, SiteContent } from "../types/content";
-import { photoPublicPaths, publicAsset } from "../utils/assets";
+import { photoPublicPaths, withBase } from "../utils/assets";
 import { localized } from "../utils/content";
 import { getCurrentAge, getExperienceLabel } from "../utils/date";
 import { SafeImage } from "../components/SafeImage";
@@ -52,7 +52,7 @@ export function About({ site, language }: AboutProps) {
           {site.tools.map((tool) => (
             <div className="tool-card" key={tool.name}>
               <SafeImage
-                src={publicAsset(tool.icon)}
+                src={withBase(tool.icon)}
                 alt=""
                 className="tool-icon"
                 fallback={<span className="tool-badge">{tool.badge}</span>}

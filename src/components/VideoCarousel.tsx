@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Play } from "lucide-react";
 import type { Language, VideoItem } from "../types/content";
 import { localized } from "../utils/content";
-import { publicAsset } from "../utils/assets";
+import { withBase } from "../utils/assets";
 import { youtubeThumbnail } from "../utils/youtube";
 import { videoAspectClass } from "../utils/video";
 import { SafeImage } from "./SafeImage";
@@ -36,7 +36,7 @@ export function VideoCarousel({ videos, language, direction, onOpen, variant = "
         {loop.map((video, index) => {
           const title = localized(video.title, language, "Untitled video");
           const image = video.thumbnail
-            ? publicAsset(video.thumbnail)
+            ? withBase(video.thumbnail)
             : youtubeThumbnail(video.youtube);
           return (
             <button

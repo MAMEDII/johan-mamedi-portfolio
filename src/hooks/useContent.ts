@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { publicAsset } from "../utils/assets";
+import { withBase } from "../utils/assets";
 
 export function useContent<T>(
   fileName: string,
@@ -10,7 +10,7 @@ export function useContent<T>(
 
   useEffect(() => {
     let active = true;
-    fetch(publicAsset(`data/${fileName}`))
+    fetch(withBase(`data/${fileName}`))
       .then((response) => {
         if (!response.ok) throw new Error(`Could not load ${fileName}`);
         return response.json() as Promise<unknown>;
