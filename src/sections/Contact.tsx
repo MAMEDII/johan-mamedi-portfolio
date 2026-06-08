@@ -28,6 +28,7 @@ const socialIcons: Record<string, LucideIcon> = {
 };
 
 const allowedSocials = new Set(["email", "twitter", "x", "discord"]);
+const isExternalUrl = (url: string): boolean => url.toLowerCase().startsWith("https://");
 
 export function Contact({ site, socials, language }: { site: SiteContent; socials: SocialItem[]; language: Language }) {
   const visibleSocials = socials.filter((social) => allowedSocials.has(social.id.toLowerCase()));
@@ -50,8 +51,8 @@ export function Contact({ site, socials, language }: { site: SiteContent; social
               <a
                 key={social.id}
                 href={social.url}
-                target="_blank"
-                rel="noopener noreferrer"
+                target={isExternalUrl(social.url) ? "_blank" : undefined}
+                rel={isExternalUrl(social.url) ? "noopener noreferrer" : undefined}
                 aria-label={social.label}
                 title={social.label}
               >

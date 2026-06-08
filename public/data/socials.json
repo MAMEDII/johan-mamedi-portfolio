@@ -6,15 +6,15 @@
     "active": true
   },
   {
-    "id": "twitter",
-    "label": "X / Twitter",
+    "id": "x",
+    "label": "X",
     "url": "https://x.com/AMamedii",
     "active": true
   },
   {
     "id": "discord",
     "label": "Discord",
-    "url": "https://discord.com/user/424730694842056727",
+    "url": "https://discord.com/users/424730694842056727",
     "active": true
   }
 ]

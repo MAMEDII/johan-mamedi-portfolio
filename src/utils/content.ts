@@ -119,7 +119,8 @@ export const sanitizeSocials = (value: unknown): SocialItem[] => {
   return value.filter(isRecord).flatMap((item, index) => {
     if (item.active === false || typeof item.url !== "string") return [];
     const url = item.url.trim();
-    if (!/^(https?:\/\/|mailto:)/i.test(url)) return [];
+    const lowerUrl = url.toLowerCase();
+    if (!lowerUrl.startsWith("mailto:") && !lowerUrl.startsWith("https://")) return [];
     return [{
       id: typeof item.id === "string" ? item.id : `social-${index}`,
       label: typeof item.label === "string" ? item.label : "Social",
