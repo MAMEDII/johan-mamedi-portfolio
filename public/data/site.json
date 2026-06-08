@@ -1,0 +1,238 @@
+{
+  "name": "Johan Mamedi",
+  "brandName": "MAMEDI",
+  "heroLabel": {
+    "en": "VIDEO EDITOR PORTFOLIO",
+    "pt": "PORTFÓLIO DE EDITOR DE VÍDEO",
+    "es": "PORTAFOLIO DE EDITOR DE VIDEO"
+  },
+  "headline": {
+    "en": "MAMEDI",
+    "pt": "MAMEDI",
+    "es": "MAMEDI"
+  },
+  "subtitle": {
+    "en": "Where storytelling meets precision.",
+    "pt": "Onde a narrativa encontra a precisão.",
+    "es": "Donde la narrativa se encuentra con la precisión."
+  },
+  "heroWords": {
+    "en": [
+      "RETENTION",
+      "PACING",
+      "STORYTELLING",
+      "PRECISION",
+      "CLEAN CUTS",
+      "CINEMATIC FLOW",
+      "SOUND DESIGN",
+      "MOTION DESIGN",
+      "DECOUPAGE"
+    ],
+    "pt": [
+      "RETENÇÃO",
+      "RITMO",
+      "NARRATIVA",
+      "PRECISÃO",
+      "CORTES LIMPOS",
+      "FLUXO CINEMÁTICO",
+      "SOUND DESIGN",
+      "MOTION DESIGN",
+      "DECUPAGEM"
+    ],
+    "es": [
+      "RETENCIÓN",
+      "RITMO",
+      "NARRATIVA",
+      "PRECISIÓN",
+      "CORTES LIMPIOS",
+      "FLUJO CINEMÁTICO",
+      "DISEÑO SONORO",
+      "MOTION DESIGN",
+      "DECOUPAGE"
+    ]
+  },
+  "nav": {
+    "en": {
+      "home": "Home",
+      "about": "About",
+      "longForm": "Long Form",
+      "shorts": "Shorts",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "motionDesign": "Motion Design"
+    },
+    "pt": {
+      "home": "Início",
+      "about": "Sobre",
+      "longForm": "Longos",
+      "shorts": "Curtos",
+      "faq": "FAQ",
+      "contact": "Contato",
+      "motionDesign": "Motion Design"
+    },
+    "es": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "longForm": "Largos",
+      "shorts": "Cortos",
+      "faq": "FAQ",
+      "contact": "Contacto",
+      "motionDesign": "Motion Design"
+    }
+  },
+  "sectionEyebrows": {
+    "en": {
+      "about": "ABOUT / 01",
+      "workspace": "WORKSPACE / 02",
+      "longForm": "SELECTED WORK / 03",
+      "shorts": "VERTICAL WORK / 04",
+      "faq": "QUESTIONS / 06",
+      "motionDesign": "MOTION SYSTEMS / 05"
+    },
+    "pt": {
+      "about": "SOBRE / 01",
+      "workspace": "ESPAÇO / 02",
+      "longForm": "TRABALHOS / 03",
+      "shorts": "VERTICAIS / 04",
+      "faq": "PERGUNTAS / 06",
+      "motionDesign": "MOTION / 05"
+    },
+    "es": {
+      "about": "SOBRE MÍ / 01",
+      "workspace": "ESPACIO / 02",
+      "longForm": "TRABAJOS / 03",
+      "shorts": "VERTICALES / 04",
+      "faq": "PREGUNTAS / 06",
+      "motionDesign": "MOTION / 05"
+    }
+  },
+  "scrollLabel": {
+    "en": "SCROLL",
+    "pt": "ROLAR",
+    "es": "DESLIZAR"
+  },
+  "aboutTitle": {
+    "en": "Built around the story.",
+    "pt": "Construído em torno da história.",
+    "es": "Construido alrededor de la historia."
+  },
+  "aboutText": {
+    "en": "I'm Johan Mamedi, {age} years old, and a video editor with a lifelong connection to editing. I started editing as a child, around the age of seven, and I have been working professionally with YouTube channels and digital content since May 2024.\n\nProfessional editing experience: {experience}.\n\nI work with pacing, motion design, sound design and visual polish to make each video feel more engaging and professional.",
+    "pt": "Sou Johan Mamedi, editor de v?deo de {age} anos, com uma conex?o com edi??o desde a inf?ncia. Comecei a editar por volta dos sete anos e trabalho profissionalmente com canais do YouTube e conte?do digital desde maio de 2024.\n\nExperi?ncia profissional em edi??o: {experience}.\n\nTrabalho com pacing, motion design, sound design e acabamento visual para tornar cada v?deo mais envolvente e profissional.",
+    "es": "Soy Johan Mamedi, editor de video de {age} a?os, con una conexi?n con la edici?n desde la infancia. Empec? a editar alrededor de los siete a?os y trabajo profesionalmente con canales de YouTube y contenido digital desde mayo de 2024.\n\nExperiencia profesional en edici?n: {experience}.\n\nTrabajo con pacing, motion design, dise?o sonoro y acabado visual para que cada video sea m?s atractivo y profesional."
+  },
+  "toolsTitle": {
+    "en": "Tools of the trade",
+    "pt": "Ferramentas de trabalho",
+    "es": "Herramientas de trabajo"
+  },
+  "toolStatus": {
+    "en": "Adobe",
+    "pt": "Adobe",
+    "es": "Adobe"
+  },
+  "tools": [
+    {
+      "name": "Premiere Pro",
+      "badge": "Pr",
+      "icon": "assets/software/premiere.png"
+    },
+    {
+      "name": "After Effects",
+      "badge": "Ae",
+      "icon": "assets/software/after-effects.png"
+    },
+    {
+      "name": "Photoshop",
+      "badge": "Ps",
+      "icon": "assets/software/photoshop.png"
+    }
+  ],
+  "workspaceTitle": {
+    "en": "Editing Workspace",
+    "pt": "Espaço de Edição",
+    "es": "Espacio de Edición"
+  },
+  "workspaceLabels": {
+    "en": [
+      "PREMIERE",
+      "AFTER EFFECTS",
+      "PHOTOSHOP"
+    ],
+    "pt": [
+      "PREMIERE",
+      "AFTER EFFECTS",
+      "PHOTOSHOP"
+    ],
+    "es": [
+      "PREMIERE",
+      "AFTER EFFECTS",
+      "PHOTOSHOP"
+    ]
+  },
+  "longFormTitle": {
+    "en": "Long Form",
+    "pt": "Vídeos Longos",
+    "es": "Videos Largos"
+  },
+  "longFormDescription": {
+    "en": "Horizontal edits with cinematic pacing, strong hooks, and clean visual flow.",
+    "pt": "Edições horizontais com ritmo cinematográfico, ganchos fortes e fluidez visual.",
+    "es": "Ediciones horizontales con ritmo cinematográfico, ganchos fuertes y fluidez visual."
+  },
+  "shortsTitle": {
+    "en": "Shorts",
+    "pt": "Curtos",
+    "es": "Cortos"
+  },
+  "shortsDescription": {
+    "en": "Fast vertical edits made for retention, captions, impact frames, and replay value.",
+    "pt": "Edições verticais rápidas feitas para retenção, legendas, impacto e replay.",
+    "es": "Ediciones verticales rápidas para retención, subtítulos, impacto y repetición."
+  },
+  "faqTitle": {
+    "en": "Frequently asked",
+    "pt": "Perguntas frequentes",
+    "es": "Preguntas frecuentes"
+  },
+  "faqDescription": {
+    "en": "The essentials before we start creating.",
+    "pt": "O essencial antes de começarmos a criar.",
+    "es": "Lo esencial antes de empezar a crear."
+  },
+  "contactBadge": {
+    "en": "Available For Work",
+    "pt": "Disponível Para Trabalhos",
+    "es": "Disponible Para Trabajar"
+  },
+  "contactTitle": {
+    "en": "Let's build sharper, more engaging content.",
+    "pt": "Vamos criar conteúdo mais preciso e envolvente.",
+    "es": "Creemos contenido más preciso y atractivo."
+  },
+  "contactDescription": {
+    "en": "Tell me about the story you want to bring to life.",
+    "pt": "Conte-me sobre a história que você quer dar vida.",
+    "es": "Cuéntame sobre la historia que quieres dar vida."
+  },
+  "footerText": {
+    "en": "Johan Mamedi Portfolio · All rights reserved",
+    "pt": "Portfólio Johan Mamedi · Todos os direitos reservados",
+    "es": "Portafolio Johan Mamedi · Todos los derechos reservados"
+  },
+  "languageLabels": {
+    "en": "English",
+    "pt": "Português",
+    "es": "Español"
+  },
+  "motionDesignTitle": {
+    "en": "Motion Design",
+    "pt": "Motion Design",
+    "es": "Motion Design"
+  },
+  "motionDesignDescription": {
+    "en": "Animated visuals, kinetic typography, transitions and motion graphics built to add energy, clarity and style to every edit.",
+    "pt": "Visuais animados, tipografia cin?tica, transi??es e motion graphics criados para adicionar energia, clareza e estilo a cada edi??o.",
+    "es": "Visuales animados, tipograf?a cin?tica, transiciones y motion graphics creados para agregar energ?a, claridad y estilo a cada edici?n."
+  }
+}

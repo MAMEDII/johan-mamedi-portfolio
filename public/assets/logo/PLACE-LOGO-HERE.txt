@@ -1,0 +1,1 @@
+Place mamedi-logo.png in this folder.

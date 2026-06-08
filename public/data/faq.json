@@ -1,0 +1,107 @@
+[
+  {
+    "id": "services",
+    "question": {
+      "en": "What services do you provide?",
+      "pt": "Quais serviços você oferece?",
+      "es": "¿Qué servicios ofreces?"
+    },
+    "answer": {
+      "en": "I edit YouTube videos, long-form content, shorts, social content, motion graphics and polished branded pieces.",
+      "pt": "Edito vídeos para YouTube, conteúdo longo, shorts, conteúdo social, motion graphics e peças de marca refinadas.",
+      "es": "Edito videos para YouTube, contenido largo, shorts, contenido social, motion graphics y piezas de marca pulidas."
+    },
+    "active": true,
+    "order": 1
+  },
+  {
+    "id": "short-form",
+    "question": {
+      "en": "Do you edit short-form videos?",
+      "pt": "Você edita vídeos curtos?",
+      "es": "¿Editas videos cortos?"
+    },
+    "answer": {
+      "en": "Yes. I create fast, retention-focused vertical edits for Shorts, Reels and TikTok.",
+      "pt": "Sim. Crio edições verticais rápidas, focadas em retenção, para Shorts, Reels e TikTok.",
+      "es": "Sí. Creo ediciones verticales rápidas y enfocadas en retención para Shorts, Reels y TikTok."
+    },
+    "active": true,
+    "order": 2
+  },
+  {
+    "id": "long-form",
+    "question": {
+      "en": "Do you edit long-form videos?",
+      "pt": "Você edita vídeos longos?",
+      "es": "¿Editas videos largos?"
+    },
+    "answer": {
+      "en": "Yes. I shape long-form YouTube videos around clear storytelling, pacing and visual flow.",
+      "pt": "Sim. Estruturo vídeos longos para YouTube com narrativa clara, ritmo e fluidez visual.",
+      "es": "Sí. Doy forma a videos largos de YouTube con narrativa clara, ritmo y fluidez visual."
+    },
+    "active": true,
+    "order": 3
+  },
+  {
+    "id": "tools",
+    "question": {
+      "en": "What editing tools do you use?",
+      "pt": "Quais ferramentas de edição você usa?",
+      "es": "¿Qué herramientas de edición utilizas?"
+    },
+    "answer": {
+      "en": "My core workflow uses Premiere Pro, After Effects and Photoshop.",
+      "pt": "Meu fluxo principal usa Premiere Pro, After Effects e Photoshop.",
+      "es": "Mi flujo principal utiliza Premiere Pro, After Effects y Photoshop."
+    },
+    "active": true,
+    "order": 4
+  },
+  {
+    "id": "time",
+    "question": {
+      "en": "How long does a project take?",
+      "pt": "Quanto tempo leva um projeto?",
+      "es": "¿Cuánto tarda un proyecto?"
+    },
+    "answer": {
+      "en": "Timing depends on length and complexity. After reviewing the brief, I provide a clear delivery estimate.",
+      "pt": "O prazo depende da duração e complexidade. Após revisar o briefing, envio uma estimativa clara.",
+      "es": "El plazo depende de la duración y complejidad. Después de revisar el brief, envío una estimación clara."
+    },
+    "active": true,
+    "order": 5
+  },
+  {
+    "id": "revisions",
+    "question": {
+      "en": "Do you provide revisions?",
+      "pt": "Você oferece revisões?",
+      "es": "¿Ofreces revisiones?"
+    },
+    "answer": {
+      "en": "Yes. Revision rounds are agreed at the start so expectations stay clear.",
+      "pt": "Sim. As rodadas de revisão são combinadas no início para manter as expectativas claras.",
+      "es": "Sí. Las rondas de revisión se acuerdan al inicio para mantener expectativas claras."
+    },
+    "active": true,
+    "order": 6
+  },
+  {
+    "id": "contact",
+    "question": {
+      "en": "How can I contact you?",
+      "pt": "Como posso entrar em contato?",
+      "es": "¿Cómo puedo contactarte?"
+    },
+    "answer": {
+      "en": "Use any of the contact links below. Email and Discord are the fastest options.",
+      "pt": "Use qualquer um dos links de contato abaixo. E-mail e Discord s?o as op??es mais r?pidas.",
+      "es": "Usa cualquiera de los enlaces de contacto de abajo. El correo electr?nico y Discord son las opciones m?s r?pidas."
+    },
+    "active": true,
+    "order": 7
+  }
+]

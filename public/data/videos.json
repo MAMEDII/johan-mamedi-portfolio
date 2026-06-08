@@ -1,0 +1,306 @@
+[
+  {
+    "id": "long-01",
+    "youtube": "dQw4w9WgXcQ",
+    "title": {
+      "en": "The Art of Momentum",
+      "pt": "A Arte do Ritmo",
+      "es": "El Arte del Ritmo"
+    },
+    "category": {
+      "en": "Documentary Edit",
+      "pt": "Edição Documental",
+      "es": "Edición Documental"
+    },
+    "aspectRatio": "horizontal",
+    "active": true,
+    "order": 1,
+    "kind": "long"
+  },
+  {
+    "id": "long-02",
+    "youtube": "aqz-KE-bpKQ",
+    "title": {
+      "en": "Beyond The Frame",
+      "pt": "Além do Quadro",
+      "es": "Más Allá del Cuadro"
+    },
+    "category": {
+      "en": "Cinematic Story",
+      "pt": "História Cinemática",
+      "es": "Historia Cinemática"
+    },
+    "aspectRatio": "horizontal",
+    "active": true,
+    "order": 2,
+    "kind": "long"
+  },
+  {
+    "id": "long-03",
+    "youtube": "ysz5S6PUM-U",
+    "title": {
+      "en": "Signal & Story",
+      "pt": "Sinal & História",
+      "es": "Señal e Historia"
+    },
+    "category": {
+      "en": "YouTube Essay",
+      "pt": "Ensaio para YouTube",
+      "es": "Ensayo para YouTube"
+    },
+    "aspectRatio": "horizontal",
+    "active": true,
+    "order": 3,
+    "kind": "long"
+  },
+  {
+    "id": "long-04",
+    "youtube": "jNQXAC9IVRw",
+    "title": {
+      "en": "A Clean Beginning",
+      "pt": "Um Começo Limpo",
+      "es": "Un Comienzo Limpio"
+    },
+    "category": {
+      "en": "Brand Film",
+      "pt": "Filme de Marca",
+      "es": "Video de Marca"
+    },
+    "aspectRatio": "horizontal",
+    "active": true,
+    "order": 4,
+    "kind": "long"
+  },
+  {
+    "id": "long-05",
+    "youtube": "ScMzIvxBSi4",
+    "title": {
+      "en": "Precision In Motion",
+      "pt": "Precisão em Movimento",
+      "es": "Precisión en Movimiento"
+    },
+    "category": {
+      "en": "Creator Edit",
+      "pt": "Edição para Creator",
+      "es": "Edición para Creator"
+    },
+    "aspectRatio": "horizontal",
+    "active": true,
+    "order": 5,
+    "kind": "long"
+  },
+  {
+    "id": "short-01",
+    "youtube": "dQw4w9WgXcQ",
+    "title": {
+      "en": "One Second Hook",
+      "pt": "Gancho de Um Segundo",
+      "es": "Gancho de Un Segundo"
+    },
+    "category": {
+      "en": "Short Edit",
+      "pt": "Edição Curta",
+      "es": "Edición Corta"
+    },
+    "aspectRatio": "vertical",
+    "active": true,
+    "order": 1,
+    "kind": "short"
+  },
+  {
+    "id": "short-02",
+    "youtube": "aqz-KE-bpKQ",
+    "title": {
+      "en": "Caption Rhythm",
+      "pt": "Ritmo de Legendas",
+      "es": "Ritmo de Subtítulos"
+    },
+    "category": {
+      "en": "Social Short",
+      "pt": "Short Social",
+      "es": "Short Social"
+    },
+    "aspectRatio": "vertical",
+    "active": true,
+    "order": 2,
+    "kind": "short"
+  },
+  {
+    "id": "short-03",
+    "youtube": "ysz5S6PUM-U",
+    "title": {
+      "en": "Impact Frame",
+      "pt": "Frame de Impacto",
+      "es": "Frame de Impacto"
+    },
+    "category": {
+      "en": "Motion Short",
+      "pt": "Short com Motion",
+      "es": "Short con Motion"
+    },
+    "aspectRatio": "vertical",
+    "active": true,
+    "order": 3,
+    "kind": "short"
+  },
+  {
+    "id": "short-04",
+    "youtube": "jNQXAC9IVRw",
+    "title": {
+      "en": "Replay Value",
+      "pt": "Valor de Replay",
+      "es": "Valor de Repetición"
+    },
+    "category": {
+      "en": "Retention Edit",
+      "pt": "Edição de Retenção",
+      "es": "Edición de Retención"
+    },
+    "aspectRatio": "vertical",
+    "active": true,
+    "order": 4,
+    "kind": "short"
+  },
+  {
+    "id": "short-05",
+    "youtube": "ScMzIvxBSi4",
+    "title": {
+      "en": "Fast Story",
+      "pt": "História Rápida",
+      "es": "Historia Rápida"
+    },
+    "category": {
+      "en": "Vertical Story",
+      "pt": "História Vertical",
+      "es": "Historia Vertical"
+    },
+    "aspectRatio": "vertical",
+    "active": true,
+    "order": 5,
+    "kind": "short"
+  },
+  {
+    "id": "short-06",
+    "youtube": "M7lc1UVf-VE",
+    "title": {
+      "en": "Sound On",
+      "pt": "Som Ligado",
+      "es": "Sonido Activado"
+    },
+    "category": {
+      "en": "Sound Design",
+      "pt": "Sound Design",
+      "es": "Diseño Sonoro"
+    },
+    "aspectRatio": "vertical",
+    "active": true,
+    "order": 6,
+    "kind": "short"
+  },
+  {
+    "id": "short-07",
+    "youtube": "aqz-KE-bpKQ",
+    "title": {
+      "en": "Visual Punch",
+      "pt": "Impacto Visual",
+      "es": "Golpe Visual"
+    },
+    "category": {
+      "en": "Impact Edit",
+      "pt": "Edição de Impacto",
+      "es": "Edición de Impacto"
+    },
+    "aspectRatio": "vertical",
+    "active": true,
+    "order": 7,
+    "kind": "short"
+  },
+  {
+    "id": "short-08",
+    "youtube": "ysz5S6PUM-U",
+    "title": {
+      "en": "Loop It",
+      "pt": "Faça Loop",
+      "es": "Hazlo Loop"
+    },
+    "category": {
+      "en": "Loop Edit",
+      "pt": "Edição em Loop",
+      "es": "Edición en Loop"
+    },
+    "aspectRatio": "vertical",
+    "active": true,
+    "order": 8,
+    "kind": "short"
+  },
+  {
+    "id": "motion-01",
+    "youtube": "M7lc1UVf-VE",
+    "title": {
+      "en": "Kinetic Title System",
+      "pt": "Sistema de T?tulos Cin?ticos",
+      "es": "Sistema de T?tulos Cin?ticos"
+    },
+    "category": "motion",
+    "kind": "motion",
+    "aspectRatio": "9:16",
+    "active": true,
+    "order": 1
+  },
+  {
+    "id": "motion-02",
+    "youtube": "dQw4w9WgXcQ",
+    "title": {
+      "en": "Neon Transition Pack",
+      "pt": "Pacote de Transi??es Neon",
+      "es": "Pack de Transiciones Neon"
+    },
+    "category": "motion",
+    "kind": "motion",
+    "aspectRatio": "9:16",
+    "active": true,
+    "order": 2
+  },
+  {
+    "id": "motion-03",
+    "youtube": "aqz-KE-bpKQ",
+    "title": {
+      "en": "Animated Lower Thirds",
+      "pt": "Lower Thirds Animados",
+      "es": "Lower Thirds Animados"
+    },
+    "category": "motion",
+    "kind": "motion",
+    "aspectRatio": "9:16",
+    "active": true,
+    "order": 3
+  },
+  {
+    "id": "motion-04",
+    "youtube": "ysz5S6PUM-U",
+    "title": {
+      "en": "Energy Logo Reveal",
+      "pt": "Revela??o de Logo com Energia",
+      "es": "Revelaci?n de Logo con Energ?a"
+    },
+    "category": "motion",
+    "kind": "motion",
+    "aspectRatio": "9:16",
+    "active": true,
+    "order": 4
+  },
+  {
+    "id": "motion-05",
+    "youtube": "jNQXAC9IVRw",
+    "title": {
+      "en": "Short Motion Loop",
+      "pt": "Loop Curto de Motion",
+      "es": "Loop Corto de Motion"
+    },
+    "category": "motion",
+    "kind": "motion",
+    "aspectRatio": "9:16",
+    "active": true,
+    "order": 5
+  }
+]

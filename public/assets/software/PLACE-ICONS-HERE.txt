@@ -1,0 +1,1 @@
+Place premiere.png, after-effects.png and photoshop.png in this folder.
