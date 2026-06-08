@@ -2,19 +2,19 @@
   {
     "id": "email",
     "label": "Email",
-    "url": "mailto:hello@johanmamedi.com",
+    "url": "mailto:abraaomamedi@gmail.com",
     "active": true
   },
   {
     "id": "twitter",
     "label": "X / Twitter",
-    "url": "https://x.com/",
+    "url": "https://x.com/AMamedii",
     "active": true
   },
   {
     "id": "discord",
     "label": "Discord",
-    "url": "https://discord.com/",
+    "url": "https://discord.com/user/424730694842056727",
     "active": true
   }
 ]
