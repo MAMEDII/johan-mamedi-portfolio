@@ -8,9 +8,25 @@ interface SafeImageProps {
   className?: string;
   fallback: ReactNode;
   expectedPath?: string;
+  width?: number;
+  height?: number;
+  loading?: "eager" | "lazy";
+  fetchPriority?: "high" | "low" | "auto";
+  sizes?: string;
 }
 
-export function SafeImage({ src, alt, className = "", fallback, expectedPath }: SafeImageProps) {
+export function SafeImage({
+  src,
+  alt,
+  className = "",
+  fallback,
+  expectedPath,
+  width,
+  height,
+  loading = "lazy",
+  fetchPriority = "auto",
+  sizes,
+}: SafeImageProps) {
   const sources = Array.isArray(src) ? src : [src];
   const sourceKey = sources.join("|");
   const [sourceIndex, setSourceIndex] = useState(0);
@@ -24,7 +40,12 @@ export function SafeImage({ src, alt, className = "", fallback, expectedPath }: 
       src={sources[sourceIndex]}
       alt={alt}
       className={className}
-      loading="lazy"
+      width={width}
+      height={height}
+      loading={loading}
+      decoding="async"
+      fetchPriority={fetchPriority}
+      sizes={sizes}
       onError={() => {
         const nextIndex = sourceIndex + 1;
         if (nextIndex < sources.length) {

@@ -35,6 +35,9 @@ export function About({ site, language }: AboutProps) {
             alt={site.name}
             className="portrait-image"
             expectedPath="public/assets/photo/johan-mamedi.(png|jpg|jpeg|webp)"
+            width={720}
+            height={900}
+            sizes="(max-width: 700px) calc(100vw - 30px), 520px"
             fallback={
               <div className="portrait-fallback">
                 <span>JM</span>
@@ -55,6 +58,10 @@ export function About({ site, language }: AboutProps) {
                 src={withBase(tool.icon)}
                 alt=""
                 className="tool-icon"
+                width={166}
+                height={166}
+                sizes="(max-width: 700px) 166px, 180px"
+                fetchPriority="low"
                 fallback={<span className="tool-badge">{tool.badge}</span>}
               />
               <span>{tool.name}</span>

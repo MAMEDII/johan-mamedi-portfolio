@@ -1,22 +1,23 @@
-import { useCallback, useMemo, useState } from "react";
+import { Suspense, lazy, useCallback, useMemo, useState } from "react";
 import { Navbar } from "./components/Navbar";
 import { CinematicHud } from "./components/CinematicHud";
 import { BackgroundAtmosphere } from "./components/DigitalAtmosphere";
 import { IntroOverlay } from "./components/IntroOverlay";
-import { VideoModal } from "./components/VideoModal";
 import { fallbackFaq, fallbackSite, fallbackSocials, fallbackVideos } from "./data/fallback";
 import { useContent } from "./hooks/useContent";
 import { useLanguage } from "./hooks/useLanguage";
 import { useFavicon } from "./hooks/useFavicon";
-import { About } from "./sections/About";
-import { Contact } from "./sections/Contact";
-import { FAQ } from "./sections/FAQ";
 import { Hero } from "./sections/Hero";
-import { VideoShowcase } from "./sections/VideoShowcase";
-import { Workspace } from "./sections/Workspace";
 import type { FAQItem, SiteContent, SocialItem, VideoItem } from "./types/content";
 import { isSiteContent, localized, sanitizeFaq, sanitizeSocials, sanitizeVideos } from "./utils/content";
 import { normalizeAspectRatio } from "./utils/video";
+
+const About = lazy(() => import("./sections/About").then((module) => ({ default: module.About })));
+const Contact = lazy(() => import("./sections/Contact").then((module) => ({ default: module.Contact })));
+const FAQ = lazy(() => import("./sections/FAQ").then((module) => ({ default: module.FAQ })));
+const VideoModal = lazy(() => import("./components/VideoModal").then((module) => ({ default: module.VideoModal })));
+const VideoShowcase = lazy(() => import("./sections/VideoShowcase").then((module) => ({ default: module.VideoShowcase })));
+const Workspace = lazy(() => import("./sections/Workspace").then((module) => ({ default: module.Workspace })));
 
 const validateSite = (value: unknown): SiteContent | null => isSiteContent(value) ? value : null;
 const validateVideos = (value: unknown): VideoItem[] | null => {
@@ -62,36 +63,42 @@ export default function App() {
       <Navbar site={site} language={language} setLanguage={setLanguage} />
       <main>
         <Hero site={site} language={language} />
-        <About site={site} language={language} />
-        <Workspace site={site} language={language} />
-        <VideoShowcase
-          id="long-form"
-          eyebrow={site.sectionEyebrows[language]?.longForm || site.sectionEyebrows.en.longForm}
-          title={localized(site.longFormTitle, language)}
-          description={localized(site.longFormDescription, language)}
-          videos={longVideos}
-          language={language}
-          direction="left"
-          onOpen={setSelectedVideo}
-        />
-        <VideoShowcase
-          id="shorts"
-          eyebrow={site.sectionEyebrows[language]?.shorts || site.sectionEyebrows.en.shorts}
-          title={localized(site.shortsTitle, language)}
-          description={localized(site.shortsDescription, language)}
-          videos={shortVideos}
-          language={language}
-          direction="right"
-          onOpen={setSelectedVideo}
-        />
-        <FAQ site={site} items={faq} language={language} />
-        <Contact site={site} socials={socials} language={language} />
+        <Suspense fallback={null}>
+          <About site={site} language={language} />
+          <Workspace site={site} language={language} />
+          <VideoShowcase
+            id="long-form"
+            eyebrow={site.sectionEyebrows[language]?.longForm || site.sectionEyebrows.en.longForm}
+            title={localized(site.longFormTitle, language)}
+            description={localized(site.longFormDescription, language)}
+            videos={longVideos}
+            language={language}
+            direction="left"
+            onOpen={setSelectedVideo}
+          />
+          <VideoShowcase
+            id="shorts"
+            eyebrow={site.sectionEyebrows[language]?.shorts || site.sectionEyebrows.en.shorts}
+            title={localized(site.shortsTitle, language)}
+            description={localized(site.shortsDescription, language)}
+            videos={shortVideos}
+            language={language}
+            direction="right"
+            onOpen={setSelectedVideo}
+          />
+          <FAQ site={site} items={faq} language={language} />
+          <Contact site={site} socials={socials} language={language} />
+        </Suspense>
       </main>
       <footer>
         <span>{localized(site.footerText, language)}</span>
         <span>© {new Date().getFullYear()}</span>
       </footer>
-      <VideoModal video={selectedVideo} language={language} onClose={closeVideo} />
+      {selectedVideo && (
+        <Suspense fallback={null}>
+          <VideoModal video={selectedVideo} language={language} onClose={closeVideo} />
+        </Suspense>
+      )}
     </>
   );
 }

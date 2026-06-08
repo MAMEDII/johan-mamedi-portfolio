@@ -38,6 +38,10 @@ export function Navbar({ site, language, setLanguage }: NavbarProps) {
             alt={`${site.brandName} logo`}
             className="brand-image"
             expectedPath="public/assets/logo/mamedi-logo.(png|jpg|jpeg|webp)"
+            width={32}
+            height={32}
+            loading="eager"
+            fetchPriority="high"
             fallback={<span>M</span>}
           />
           <strong>

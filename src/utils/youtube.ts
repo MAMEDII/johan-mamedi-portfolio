@@ -24,8 +24,10 @@ export const extractYouTubeId = (value: unknown): string | null => {
   }
 };
 
-export const youtubeThumbnail = (id: string): string =>
-  `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+type ThumbnailQuality = "mqdefault" | "hqdefault";
+
+export const youtubeThumbnail = (id: string, quality: ThumbnailQuality = "hqdefault"): string =>
+  `https://i.ytimg.com/vi/${id}/${quality}.jpg`;
 
 export const youtubeEmbed = (id: string): string =>
   `https://www.youtube-nocookie.com/embed/${id}?rel=0&modestbranding=1&enablejsapi=1`;

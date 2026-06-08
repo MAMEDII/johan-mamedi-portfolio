@@ -67,6 +67,8 @@ export function VideoModal({ video, language, onClose }: VideoModalProps) {
           title={localized(video.title, language, "Video player")}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
+          loading="lazy"
+          referrerPolicy="strict-origin-when-cross-origin"
           onLoad={setComfortableVolume}
         />
       </div>

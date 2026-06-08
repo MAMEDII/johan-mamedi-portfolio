@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
 import { Play } from "lucide-react";
+import { useIsMobile } from "../hooks/useMediaQuery";
 import type { Language, VideoItem } from "../types/content";
 import { localized } from "../utils/content";
 import { withBase } from "../utils/assets";
 import { youtubeThumbnail } from "../utils/youtube";
-import { videoAspectClass } from "../utils/video";
+import { normalizeAspectRatio, videoAspectClass } from "../utils/video";
 import { SafeImage } from "./SafeImage";
 
 interface VideoCarouselProps {
@@ -16,15 +16,7 @@ interface VideoCarouselProps {
 }
 
 export function VideoCarousel({ videos, language, direction, onOpen, variant = "default" }: VideoCarouselProps) {
-  const [mobileScroll, setMobileScroll] = useState(false);
-
-  useEffect(() => {
-    const query = window.matchMedia("(max-width: 700px), (pointer: coarse)");
-    const sync = () => setMobileScroll(query.matches);
-    sync();
-    query.addEventListener("change", sync);
-    return () => query.removeEventListener("change", sync);
-  }, []);
+  const mobileScroll = useIsMobile();
 
   if (!videos.length) return <div className="empty-state">No active videos yet.</div>;
   const copies = videos.length < 4 ? 4 : 2;
@@ -35,9 +27,15 @@ export function VideoCarousel({ videos, language, direction, onOpen, variant = "
       <div className={`carousel-track ${mobileScroll ? "" : `move-${direction}`}`}>
         {loop.map((video, index) => {
           const title = localized(video.title, language, "Untitled video");
+          const aspect = normalizeAspectRatio(video);
+          const imageSize = aspect === "vertical"
+            ? { width: 320, height: 568, sizes: "(max-width: 700px) 64vw, 285px" }
+            : aspect === "square"
+              ? { width: 360, height: 360, sizes: "(max-width: 700px) 72vw, 350px" }
+              : { width: 480, height: 270, sizes: "(max-width: 700px) 82vw, 430px" };
           const image = video.thumbnail
             ? withBase(video.thumbnail)
-            : youtubeThumbnail(video.youtube);
+            : youtubeThumbnail(video.youtube, mobileScroll ? "mqdefault" : "hqdefault");
           return (
             <button
               key={`${video.id}-${index}`}
@@ -51,6 +49,10 @@ export function VideoCarousel({ videos, language, direction, onOpen, variant = "
                   src={image}
                   alt=""
                   className="video-thumbnail"
+                  width={imageSize.width}
+                  height={imageSize.height}
+                  sizes={imageSize.sizes}
+                  fetchPriority="low"
                   fallback={<div className="thumbnail-fallback">JM / EDIT</div>}
                 />
                 <span className="play-button"><Play size={18} fill="currentColor" /></span>

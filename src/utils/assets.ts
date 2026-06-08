@@ -6,15 +6,11 @@ export function withBase(path: string): string {
 export const publicAsset = withBase;
 
 export const logoPublicPaths = [
-  withBase("assets/logo/mamedi-logo.png"),
-  withBase("assets/logo/mamedi-logo.jpg"),
-  withBase("assets/logo/mamedi-logo.jpeg"),
   withBase("assets/logo/mamedi-logo.webp"),
+  withBase("assets/logo/mamedi-logo.png"),
 ];
 
 export const photoPublicPaths = [
-  withBase("assets/photo/johan-mamedi.png"),
-  withBase("assets/photo/johan-mamedi.jpg"),
-  withBase("assets/photo/johan-mamedi.jpeg"),
   withBase("assets/photo/johan-mamedi.webp"),
+  withBase("assets/photo/johan-mamedi.png"),
 ];
