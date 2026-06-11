@@ -1,324 +1,126 @@
-[
-  {
-    "id": "long-01",
-    "youtube": "_GmEluIXpNA",
-    "title": {
-      "en": "Long Form Edit 01",
-      "pt": "Edição Long Form 01",
-      "es": "Edición Long Form 01"
-    },
-    "category": {
-      "en": "Long Form Edit",
-      "pt": "Edição Long Form",
-      "es": "Edición Long Form"
-    },
-    "aspectRatio": "horizontal",
-    "active": true,
-    "order": 1,
-    "kind": "long"
+{
+  "id": "long-01",
+  "youtube": "_GmEluIXpNA",
+  "title": {
+    "en": "Long Form Edit 01",
+    "pt": "Edição Long Form 01",
+    "es": "Edición Long Form 01"
   },
-  {
-    "id": "long-02",
-    "youtube": "0cOm8qS87YA",
-    "title": {
-      "en": "Long Form Edit 02",
-      "pt": "Edição Long Form 02",
-      "es": "Edición Long Form 02"
-    },
-    "category": {
-      "en": "Long Form Edit",
-      "pt": "Edição Long Form",
-      "es": "Edición Long Form"
-    },
-    "aspectRatio": "horizontal",
-    "active": true,
-    "order": 2,
-    "kind": "long"
+  "category": {
+    "en": "Long Form Edit",
+    "pt": "Edição Long Form",
+    "es": "Edición Long Form"
   },
-  {
-    "id": "long-03",
-    "youtube": "HEQtt73g7sQ",
-    "title": {
-      "en": "Long Form Edit 03",
-      "pt": "Edição Long Form 03",
-      "es": "Edición Long Form 03"
-    },
-    "category": {
-      "en": "Long Form Edit",
-      "pt": "Edição Long Form",
-      "es": "Edición Long Form"
-    },
-    "aspectRatio": "horizontal",
-    "active": true,
-    "order": 3,
-    "kind": "long"
+  "aspectRatio": "horizontal",
+  "active": true,
+  "order": 1,
+  "kind": "long"
+},
+{
+  "id": "long-02",
+  "youtube": "qDZUCy4LR0A",
+  "title": {
+    "en": "Long Form Edit 02",
+    "pt": "Edição Long Form 02",
+    "es": "Edición Long Form 02"
   },
-  {
-    "id": "long-04",
-    "youtube": "OUmXU3kMhtA",
-    "title": {
-      "en": "Long Form Edit 04",
-      "pt": "Edição Long Form 04",
-      "es": "Edición Long Form 04"
-    },
-    "category": {
-      "en": "Long Form Edit",
-      "pt": "Edição Long Form",
-      "es": "Edición Long Form"
-    },
-    "aspectRatio": "horizontal",
-    "active": true,
-    "order": 4,
-    "kind": "long"
+  "category": {
+    "en": "Long Form Edit",
+    "pt": "Edição Long Form",
+    "es": "Edición Long Form"
   },
-  {
-    "id": "long-05",
-    "youtube": "OHDgCy0byPI",
-    "title": {
-      "en": "Long Form Edit 05",
-      "pt": "Edição Long Form 05",
-      "es": "Edición Long Form 05"
-    },
-    "category": {
-      "en": "Long Form Edit",
-      "pt": "Edição Long Form",
-      "es": "Edición Long Form"
-    },
-    "aspectRatio": "horizontal",
-    "active": true,
-    "order": 5,
-    "kind": "long"
+  "aspectRatio": "horizontal",
+  "active": true,
+  "order": 2,
+  "kind": "long"
+},
+{
+  "id": "long-03",
+  "youtube": "MrDHyw9e5j0",
+  "title": {
+    "en": "Long Form Edit 03",
+    "pt": "Edição Long Form 03",
+    "es": "Edición Long Form 03"
   },
-  {
-    "id": "long-06",
-    "youtube": "AOJipyXY7tI",
-    "title": {
-      "en": "Long Form Edit 06",
-      "pt": "Edição Long Form 06",
-      "es": "Edición Long Form 06"
-    },
-    "category": {
-      "en": "Long Form Edit",
-      "pt": "Edição Long Form",
-      "es": "Edición Long Form"
-    },
-    "aspectRatio": "horizontal",
-    "active": true,
-    "order": 6,
-    "kind": "long"
+  "category": {
+    "en": "Long Form Edit",
+    "pt": "Edição Long Form",
+    "es": "Edición Long Form"
   },
-  {
-    "id": "short-01",
-    "youtube": "dQw4w9WgXcQ",
-    "title": {
-      "en": "One Second Hook",
-      "pt": "Gancho de Um Segundo",
-      "es": "Gancho de Un Segundo"
-    },
-    "category": {
-      "en": "Short Edit",
-      "pt": "Edição Curta",
-      "es": "Edición Corta"
-    },
-    "aspectRatio": "vertical",
-    "active": false,
-    "order": 1,
-    "kind": "short"
+  "aspectRatio": "horizontal",
+  "active": true,
+  "order": 3,
+  "kind": "long"
+},
+{
+  "id": "long-04",
+  "youtube": "OUmXU3kMhtA",
+  "title": {
+    "en": "Long Form Edit 04",
+    "pt": "Edição Long Form 04",
+    "es": "Edición Long Form 04"
   },
-  {
-    "id": "short-02",
-    "youtube": "aqz-KE-bpKQ",
-    "title": {
-      "en": "Caption Rhythm",
-      "pt": "Ritmo de Legendas",
-      "es": "Ritmo de Subtítulos"
-    },
-    "category": {
-      "en": "Social Short",
-      "pt": "Short Social",
-      "es": "Short Social"
-    },
-    "aspectRatio": "vertical",
-    "active": false,
-    "order": 2,
-    "kind": "short"
+  "category": {
+    "en": "Long Form Edit",
+    "pt": "Edição Long Form",
+    "es": "Edición Long Form"
   },
-  {
-    "id": "short-03",
-    "youtube": "ysz5S6PUM-U",
-    "title": {
-      "en": "Impact Frame",
-      "pt": "Frame de Impacto",
-      "es": "Frame de Impacto"
-    },
-    "category": {
-      "en": "Motion Short",
-      "pt": "Short com Motion",
-      "es": "Short con Motion"
-    },
-    "aspectRatio": "vertical",
-    "active": false,
-    "order": 3,
-    "kind": "short"
+  "aspectRatio": "horizontal",
+  "active": true,
+  "order": 4,
+  "kind": "long"
+},
+{
+  "id": "long-05",
+  "youtube": "OHDgCy0byPI",
+  "title": {
+    "en": "Long Form Edit 05",
+    "pt": "Edição Long Form 05",
+    "es": "Edición Long Form 05"
   },
-  {
-    "id": "short-04",
-    "youtube": "jNQXAC9IVRw",
-    "title": {
-      "en": "Replay Value",
-      "pt": "Valor de Replay",
-      "es": "Valor de Repetición"
-    },
-    "category": {
-      "en": "Retention Edit",
-      "pt": "Edição de Retenção",
-      "es": "Edición de Retención"
-    },
-    "aspectRatio": "vertical",
-    "active": false,
-    "order": 4,
-    "kind": "short"
+  "category": {
+    "en": "Long Form Edit",
+    "pt": "Edição Long Form",
+    "es": "Edición Long Form"
   },
-  {
-    "id": "short-05",
-    "youtube": "ScMzIvxBSi4",
-    "title": {
-      "en": "Fast Story",
-      "pt": "História Rápida",
-      "es": "Historia Rápida"
-    },
-    "category": {
-      "en": "Vertical Story",
-      "pt": "História Vertical",
-      "es": "Historia Vertical"
-    },
-    "aspectRatio": "vertical",
-    "active": false,
-    "order": 5,
-    "kind": "short"
+  "aspectRatio": "horizontal",
+  "active": true,
+  "order": 5,
+  "kind": "long"
+},
+{
+  "id": "long-06",
+  "youtube": "AOJipyXY7tI",
+  "title": {
+    "en": "Long Form Edit 06",
+    "pt": "Edição Long Form 06",
+    "es": "Edición Long Form 06"
   },
-  {
-    "id": "short-06",
-    "youtube": "M7lc1UVf-VE",
-    "title": {
-      "en": "Sound On",
-      "pt": "Som Ligado",
-      "es": "Sonido Activado"
-    },
-    "category": {
-      "en": "Sound Design",
-      "pt": "Sound Design",
-      "es": "Diseño Sonoro"
-    },
-    "aspectRatio": "vertical",
-    "active": false,
-    "order": 6,
-    "kind": "short"
+  "category": {
+    "en": "Long Form Edit",
+    "pt": "Edição Long Form",
+    "es": "Edición Long Form"
   },
-  {
-    "id": "short-07",
-    "youtube": "aqz-KE-bpKQ",
-    "title": {
-      "en": "Visual Punch",
-      "pt": "Impacto Visual",
-      "es": "Golpe Visual"
-    },
-    "category": {
-      "en": "Impact Edit",
-      "pt": "Edição de Impacto",
-      "es": "Edición de Impacto"
-    },
-    "aspectRatio": "vertical",
-    "active": false,
-    "order": 7,
-    "kind": "short"
+  "aspectRatio": "horizontal",
+  "active": true,
+  "order": 6,
+  "kind": "long"
+},
+{
+  "id": "long-07",
+  "youtube": "XFaIyXLnoCg",
+  "title": {
+    "en": "Long Form Edit 07",
+    "pt": "Edição Long Form 07",
+    "es": "Edición Long Form 07"
   },
-  {
-    "id": "short-08",
-    "youtube": "ysz5S6PUM-U",
-    "title": {
-      "en": "Loop It",
-      "pt": "Faça Loop",
-      "es": "Hazlo Loop"
-    },
-    "category": {
-      "en": "Loop Edit",
-      "pt": "Edição em Loop",
-      "es": "Edición en Loop"
-    },
-    "aspectRatio": "vertical",
-    "active": false,
-    "order": 8,
-    "kind": "short"
+  "category": {
+    "en": "Long Form Edit",
+    "pt": "Edição Long Form",
+    "es": "Edición Long Form"
   },
-  {
-    "id": "motion-01",
-    "youtube": "M7lc1UVf-VE",
-    "title": {
-      "en": "Kinetic Title System",
-      "pt": "Sistema de Títulos Cinéticos",
-      "es": "Sistema de Títulos Cinéticos"
-    },
-    "category": "motion",
-    "kind": "motion",
-    "aspectRatio": "9:16",
-    "active": false,
-    "order": 1
-  },
-  {
-    "id": "motion-02",
-    "youtube": "dQw4w9WgXcQ",
-    "title": {
-      "en": "Neon Transition Pack",
-      "pt": "Pacote de Transições Neon",
-      "es": "Pack de Transiciones Neon"
-    },
-    "category": "motion",
-    "kind": "motion",
-    "aspectRatio": "9:16",
-    "active": false,
-    "order": 2
-  },
-  {
-    "id": "motion-03",
-    "youtube": "aqz-KE-bpKQ",
-    "title": {
-      "en": "Animated Lower Thirds",
-      "pt": "Lower Thirds Animados",
-      "es": "Lower Thirds Animados"
-    },
-    "category": "motion",
-    "kind": "motion",
-    "aspectRatio": "9:16",
-    "active": false,
-    "order": 3
-  },
-  {
-    "id": "motion-04",
-    "youtube": "ysz5S6PUM-U",
-    "title": {
-      "en": "Energy Logo Reveal",
-      "pt": "Revelação de Logo com Energia",
-      "es": "Revelación de Logo con Energía"
-    },
-    "category": "motion",
-    "kind": "motion",
-    "aspectRatio": "9:16",
-    "active": false,
-    "order": 4
-  },
-  {
-    "id": "motion-05",
-    "youtube": "jNQXAC9IVRw",
-    "title": {
-      "en": "Short Motion Loop",
-      "pt": "Loop Curto de Motion",
-      "es": "Loop Corto de Motion"
-    },
-    "category": "motion",
-    "kind": "motion",
-    "aspectRatio": "9:16",
-    "active": false,
-    "order": 5
-  }
-]
+  "aspectRatio": "horizontal",
+  "active": true,
+  "order": 7,
+  "kind": "long"
+}
