@@ -1,16 +1,16 @@
 [
   {
     "id": "long-01",
-    "youtube": "dQw4w9WgXcQ",
+    "youtube": "_GmEluIXpNA",
     "title": {
-      "en": "The Art of Momentum",
-      "pt": "A Arte do Ritmo",
-      "es": "El Arte del Ritmo"
+      "en": "Long Form Edit 01",
+      "pt": "Edição Long Form 01",
+      "es": "Edición Long Form 01"
     },
     "category": {
-      "en": "Documentary Edit",
-      "pt": "Edição Documental",
-      "es": "Edición Documental"
+      "en": "Long Form Edit",
+      "pt": "Edição Long Form",
+      "es": "Edición Long Form"
     },
     "aspectRatio": "horizontal",
     "active": true,
@@ -19,16 +19,16 @@
   },
   {
     "id": "long-02",
-    "youtube": "aqz-KE-bpKQ",
+    "youtube": "0cOm8qS87YA",
     "title": {
-      "en": "Beyond The Frame",
-      "pt": "Além do Quadro",
-      "es": "Más Allá del Cuadro"
+      "en": "Long Form Edit 02",
+      "pt": "Edição Long Form 02",
+      "es": "Edición Long Form 02"
     },
     "category": {
-      "en": "Cinematic Story",
-      "pt": "História Cinemática",
-      "es": "Historia Cinemática"
+      "en": "Long Form Edit",
+      "pt": "Edição Long Form",
+      "es": "Edición Long Form"
     },
     "aspectRatio": "horizontal",
     "active": true,
@@ -37,16 +37,16 @@
   },
   {
     "id": "long-03",
-    "youtube": "ysz5S6PUM-U",
+    "youtube": "HEQtt73g7sQ",
     "title": {
-      "en": "Signal & Story",
-      "pt": "Sinal & História",
-      "es": "Señal e Historia"
+      "en": "Long Form Edit 03",
+      "pt": "Edição Long Form 03",
+      "es": "Edición Long Form 03"
     },
     "category": {
-      "en": "YouTube Essay",
-      "pt": "Ensaio para YouTube",
-      "es": "Ensayo para YouTube"
+      "en": "Long Form Edit",
+      "pt": "Edição Long Form",
+      "es": "Edición Long Form"
     },
     "aspectRatio": "horizontal",
     "active": true,
@@ -55,16 +55,16 @@
   },
   {
     "id": "long-04",
-    "youtube": "jNQXAC9IVRw",
+    "youtube": "OUmXU3kMhtA",
     "title": {
-      "en": "A Clean Beginning",
-      "pt": "Um Começo Limpo",
-      "es": "Un Comienzo Limpio"
+      "en": "Long Form Edit 04",
+      "pt": "Edição Long Form 04",
+      "es": "Edición Long Form 04"
     },
     "category": {
-      "en": "Brand Film",
-      "pt": "Filme de Marca",
-      "es": "Video de Marca"
+      "en": "Long Form Edit",
+      "pt": "Edição Long Form",
+      "es": "Edición Long Form"
     },
     "aspectRatio": "horizontal",
     "active": true,
@@ -73,20 +73,38 @@
   },
   {
     "id": "long-05",
-    "youtube": "ScMzIvxBSi4",
+    "youtube": "OHDgCy0byPI",
     "title": {
-      "en": "Precision In Motion",
-      "pt": "Precisão em Movimento",
-      "es": "Precisión en Movimiento"
+      "en": "Long Form Edit 05",
+      "pt": "Edição Long Form 05",
+      "es": "Edición Long Form 05"
     },
     "category": {
-      "en": "Creator Edit",
-      "pt": "Edição para Creator",
-      "es": "Edición para Creator"
+      "en": "Long Form Edit",
+      "pt": "Edição Long Form",
+      "es": "Edición Long Form"
     },
     "aspectRatio": "horizontal",
     "active": true,
     "order": 5,
+    "kind": "long"
+  },
+  {
+    "id": "long-06",
+    "youtube": "AOJipyXY7tI",
+    "title": {
+      "en": "Long Form Edit 06",
+      "pt": "Edição Long Form 06",
+      "es": "Edición Long Form 06"
+    },
+    "category": {
+      "en": "Long Form Edit",
+      "pt": "Edição Long Form",
+      "es": "Edición Long Form"
+    },
+    "aspectRatio": "horizontal",
+    "active": true,
+    "order": 6,
     "kind": "long"
   },
   {
@@ -103,7 +121,7 @@
       "es": "Edición Corta"
     },
     "aspectRatio": "vertical",
-    "active": true,
+    "active": false,
     "order": 1,
     "kind": "short"
   },
@@ -121,7 +139,7 @@
       "es": "Short Social"
     },
     "aspectRatio": "vertical",
-    "active": true,
+    "active": false,
     "order": 2,
     "kind": "short"
   },
@@ -139,7 +157,7 @@
       "es": "Short con Motion"
     },
     "aspectRatio": "vertical",
-    "active": true,
+    "active": false,
     "order": 3,
     "kind": "short"
   },
@@ -157,7 +175,7 @@
       "es": "Edición de Retención"
     },
     "aspectRatio": "vertical",
-    "active": true,
+    "active": false,
     "order": 4,
     "kind": "short"
   },
@@ -175,7 +193,7 @@
       "es": "Historia Vertical"
     },
     "aspectRatio": "vertical",
-    "active": true,
+    "active": false,
     "order": 5,
     "kind": "short"
   },
@@ -193,7 +211,7 @@
       "es": "Diseño Sonoro"
     },
     "aspectRatio": "vertical",
-    "active": true,
+    "active": false,
     "order": 6,
     "kind": "short"
   },
@@ -211,7 +229,7 @@
       "es": "Edición de Impacto"
     },
     "aspectRatio": "vertical",
-    "active": true,
+    "active": false,
     "order": 7,
     "kind": "short"
   },
@@ -229,7 +247,7 @@
       "es": "Edición en Loop"
     },
     "aspectRatio": "vertical",
-    "active": true,
+    "active": false,
     "order": 8,
     "kind": "short"
   },
@@ -238,13 +256,13 @@
     "youtube": "M7lc1UVf-VE",
     "title": {
       "en": "Kinetic Title System",
-      "pt": "Sistema de T?tulos Cin?ticos",
-      "es": "Sistema de T?tulos Cin?ticos"
+      "pt": "Sistema de Títulos Cinéticos",
+      "es": "Sistema de Títulos Cinéticos"
     },
     "category": "motion",
     "kind": "motion",
     "aspectRatio": "9:16",
-    "active": true,
+    "active": false,
     "order": 1
   },
   {
@@ -252,13 +270,13 @@
     "youtube": "dQw4w9WgXcQ",
     "title": {
       "en": "Neon Transition Pack",
-      "pt": "Pacote de Transi??es Neon",
+      "pt": "Pacote de Transições Neon",
       "es": "Pack de Transiciones Neon"
     },
     "category": "motion",
     "kind": "motion",
     "aspectRatio": "9:16",
-    "active": true,
+    "active": false,
     "order": 2
   },
   {
@@ -272,7 +290,7 @@
     "category": "motion",
     "kind": "motion",
     "aspectRatio": "9:16",
-    "active": true,
+    "active": false,
     "order": 3
   },
   {
@@ -280,13 +298,13 @@
     "youtube": "ysz5S6PUM-U",
     "title": {
       "en": "Energy Logo Reveal",
-      "pt": "Revela??o de Logo com Energia",
-      "es": "Revelaci?n de Logo con Energ?a"
+      "pt": "Revelação de Logo com Energia",
+      "es": "Revelación de Logo con Energía"
     },
     "category": "motion",
     "kind": "motion",
     "aspectRatio": "9:16",
-    "active": true,
+    "active": false,
     "order": 4
   },
   {
@@ -300,7 +318,7 @@
     "category": "motion",
     "kind": "motion",
     "aspectRatio": "9:16",
-    "active": true,
+    "active": false,
     "order": 5
   }
 ]
