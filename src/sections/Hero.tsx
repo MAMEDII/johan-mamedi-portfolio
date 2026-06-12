@@ -12,6 +12,7 @@ interface HeroProps {
 export function Hero({ site, language }: HeroProps) {
   const reducedMotion = Boolean(useReducedMotion());
   const typed = useTypewriter(site.heroWords[language] || site.heroWords.en, reducedMotion);
+  const headline = localized(site.headline, language, site.name);
 
   return (
     <section id="home" className="hero-section">
@@ -32,7 +33,7 @@ export function Hero({ site, language }: HeroProps) {
         transition={{ duration: 0.8 }}
       >
         <div className="hero-label"><CircleDot size={14} /> {localized(site.heroLabel, language)}</div>
-        <h1>{localized(site.headline, language, site.name)}</h1>
+        <h1 data-text={headline}>{headline}</h1>
         <p>{localized(site.subtitle, language)}</p>
         <div className="type-stage" aria-live="polite">
           <span>{typed}</span><i aria-hidden="true" />
