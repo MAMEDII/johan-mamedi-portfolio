@@ -6,7 +6,7 @@ export const fallbackSite: SiteContent = {
   name: "Johan Mamedi",
   brandName: "MAMEDI",
   heroLabel: tri("VIDEO EDITOR PORTFOLIO", "PORTFOLIO DE EDITOR DE VIDEO", "PORTAFOLIO DE EDITOR DE VIDEO"),
-  headline: tri("ABRAHAM MAMEDI"),
+  headline: tri("JOHAN MAMEDI"),
   subtitle: tri("Where storytelling meets precision.", "Onde a narrativa encontra a precisao.", "Donde la narrativa se encuentra con la precision."),
   heroWords: {
     en: ["RETENTION", "PACING", "STORYTELLING", "PRECISION", "CINEMATIC FLOW"],
